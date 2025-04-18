@@ -8,7 +8,7 @@ import os
 
 # ─── CONFIGURATION OPENROUTER & STREAMLIT ────────────────────────────────────
 openai.api_base = "https://openrouter.ai/api/v1/chat/completions"
-openai.api_key = st.secrets["openai_api_key"]
+openai.api_key = st.secrets["OPENROUTER_API_KEY"]
 
 st.set_page_config(page_title="🌴 DjerbaExplorer", layout="wide")
 
